@@ -1,5 +1,5 @@
 **I will be using %text% to mark elements which are to be replaced with your own code/arguments**
-#### **layout**
+### **layout**
 ***
 The scripts are written in a single line, you can have multiple scripts which run after eachother by seperating the scripts with semicolons.  
 You can also use commas to write multiple lines in the same scope.
@@ -7,7 +7,7 @@ You can also use commas to write multiple lines in the same scope.
 Example:  
 `print "yes"; print "quite"` - this would print "yes" and then print "quite".  
 `if $var == true: print "yeah", print "okay"; print "nah"` - if var is true, prints "yeah" and "okay", then prints "nah"
-#### **Statements**
+### **Statements**
 ***
 **if statement**  
 `if %expression%:` 
@@ -40,7 +40,7 @@ Examples:
 `repeat 5 30: print "test"` - Defines a script that runs every 5 frames, 30 times.  
 `repeat 60: loop 5: print "yes"` - Defines a script that runs every 60 frames and prints "yes" 5 times.
 
-#### **Variables**
+### **Variables**
 Variables can be used in scripts by putting a dollar sign in front of the variable name.  
 `print $variable` would print whatever $variable has assigned to it, or null if not defined.
 ***
