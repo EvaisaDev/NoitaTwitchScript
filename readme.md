@@ -1,4 +1,5 @@
 **I will be using %text% to mark elements which are to be replaced with your own code/arguments**
+***
 ### **layout**
 ***
 The scripts are written in a single line, you can have multiple scripts which run after eachother by seperating the scripts with semicolons.  
@@ -7,6 +8,7 @@ You can also use commas to write multiple lines in the same scope.
 Example:  
 `print "yes"; print "quite"` - this would print "yes" and then print "quite".  
 `if $var == true: print "yeah", print "okay"; print "nah"` - if var is true, prints "yeah" and "okay", then prints "nah"
+***
 ### **Statements**
 ***
 **if statement**  
@@ -39,7 +41,7 @@ Examples:
 Examples:  
 `repeat 5 30: print "test"` - Defines a script that runs every 5 frames, 30 times.  
 `repeat 60: loop 5: print "yes"` - Defines a script that runs every 60 frames and prints "yes" 5 times.
-
+***
 ### **Variables**
 Variables can be used in scripts by putting a dollar sign in front of the variable name.  
 `print $variable` would print whatever $variable has assigned to it, or null if not defined.
@@ -57,7 +59,7 @@ Meaning when you defined a variable you can use it again in future scripts.
 Examples:  
 `$var = 1; if $var == 1: print "true"` - set $var to 1, then run another script which checks if $var is 1 and prints "true"  
 `counter = 0; repeat 60: $counter = $counter + 1` - creates a counter variable which increments by 1 every 60 frames.
-
+***
 ### **Functions** 
 Certain functions are exposed to the scripts, as without them you wouldn't be able to do much.  
 These functions are usually straight up exposed from the Noita API so for documentation on them you might have to look on the Noita wiki.
