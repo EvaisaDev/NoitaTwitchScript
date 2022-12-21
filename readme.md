@@ -1,5 +1,6 @@
 **I will be using %text% to mark elements which are to be replaced with your own code/arguments**
 #### **layout**
+***
 The scripts are written in a single line, you can have multiple scripts which run after eachother by seperating the scripts with semicolons.  
 You can also use commas to write multiple lines in the same scope.
 
